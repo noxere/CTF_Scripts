@@ -51,5 +51,5 @@ for i in range(1, 101):  # Loop from 1 to 100
         print(f"POST request failed for message {i}. Status code: {post_response.status_code}")
         print("Response:", post_response.text)
 
-    # Step 5: Introduce a small delay to avoid overwhelming the server
-    time.sleep(1)  # Adjust this delay if needed
+    # Step 5: Small delay to avoid overwhelming the server
+    time.sleep(1) 
